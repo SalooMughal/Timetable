@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/user"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Users" />
+        <item
+            android:id="@+id/stimetable"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Timetable" />
+        <item
+            android:id="@+id/timtable"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Update-Timetable" />
+        <item
+            android:id="@+id/ctimetable"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Create-Timetable" />
+    </group>
+
+</menu>

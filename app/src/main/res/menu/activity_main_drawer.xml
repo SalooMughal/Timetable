@@ -9,15 +9,15 @@
             android:title="Users" />
         <item
             android:id="@+id/stimetable"
-            android:icon="@android:drawable/ic_menu_agenda"
+            android:icon="@android:drawable/ic_lock_idle_alarm"
             android:title="Timetable" />
         <item
             android:id="@+id/timtable"
-            android:icon="@android:drawable/ic_menu_agenda"
+            android:icon="?android:attr/actionModeSelectAllDrawable"
             android:title="Update-Timetable" />
         <item
             android:id="@+id/ctimetable"
-            android:icon="@android:drawable/ic_menu_agenda"
+            android:icon="@android:drawable/ic_input_add"
             android:title="Create-Timetable" />
     </group>
 
